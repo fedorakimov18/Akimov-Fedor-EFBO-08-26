@@ -22,7 +22,7 @@ int main() {
         } while (i < n);
     }
 
-    cout << n - len << endl;
+    cout << "Количество студентов, которые уйдут в КФС: " << n - len << endl;
 
     return 0;
 }
