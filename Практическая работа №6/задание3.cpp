@@ -1,10 +1,8 @@
 // Акимов Фёдор, ЭФБО-08-26
 // Практическая работа №6, задание 3
 // Последовательность "смотри и говори": следующий член описывает предыдущий
-
 #include <iostream>
 #include <string>
-
 using namespace std;
 
 int main() {
@@ -28,8 +26,6 @@ int main() {
         }
         s = next;
     }
-
     cout << s << endl;
-
     return 0;
 }

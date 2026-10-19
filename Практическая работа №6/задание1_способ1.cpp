@@ -1,14 +1,11 @@
 // Акимов Фёдор, ЭФБО-08-26
 // Практическая работа №6, задание 1, способ 1
 // Для каждой клетки сравниваю i + j с n - 1 (побочная диагональ)
-
 #include <iostream>
-
 using namespace std;
 
 int main() {
     int n;
-
     cin >> n;
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
@@ -18,12 +15,10 @@ int main() {
                 cout << 1;
             else
                 cout << 2;
-
             if (j < n - 1)
                 cout << " ";
         }
         cout << endl;
     }
-
     return 0;
 }
